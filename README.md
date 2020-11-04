@@ -15,9 +15,7 @@ metabot mix between cron job and metasploit and masscan
 
 in this line in bash script :
 
-
-
-(masscan  -p #target_port 0.0.0.0/0 --rate=99999 --exclude 255.255.255.255 -oX smb.xml)
+`masscan  -p #target_port 0.0.0.0/0 --rate=99999 --exclude 255.255.255.255 -oX smb.xml`
 
 
 we use masscan with port he have vulnerability in metasploit like smb port "445" a most vulnerability Spread its ms17_010 and we hvae auxiliary module scanner in metasploit we can scanning lots hosts like "4,000,000" opening ports 445 with range "0.0.0.0/0" this means scan all ips world with rate "99999" here you need bandiwth with rate at least 30m upload
