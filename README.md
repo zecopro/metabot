@@ -28,7 +28,7 @@ in this line in bash script :
 
 
 
-`cat /var/.,/smb.xml | grep addr | cut -d '"' -f 4 > /var/.,/ips.txt` 
+`cat smb.xml | grep addr | cut -d '"' -f 4 > ips.txt` 
 
 
 here i use cat and grep and cut to do filtering for lists ips from smb.xml to plain text ip "ips.txt"
